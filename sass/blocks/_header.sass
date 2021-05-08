@@ -1,0 +1,208 @@
+.header
+
+    background-image: url('../img/bgc1.jpg')
+    background-repeat: no-repeat
+    background-size: cover
+
+    height: 100%
+    width: 100%
+    &__link
+        margin-left: 16px
+        margin-right: -20px
+    &__blur
+        padding-top: 23px
+        padding-bottom: 82px
+        background: rgba(46, 46, 46, 0.7) // Make sure this color has an opacity of less than 1
+        backdrop-filter: blur(8px) // This be the blur
+        width: 100%
+    &-top
+        display: flex
+        justify-content: space-between
+        align-items: flex-start
+    &__navbar
+        margin-top: 18px
+        margin-left: 50px
+        &-menu
+            display: flex
+
+        &-item
+            padding-right: 12px
+            padding-left: 14px
+
+            border-right: 0.4px dotted white
+            &:last-child
+                border-right: none
+        &-links
+            color: $white
+            font-size: 15px
+            font-weight: 400
+            font-style: normal
+            letter-spacing: normal
+            line-height: 16.71px
+            text-decoration: none
+            cursor: pointer
+            padding-bottom: 2px
+            &:hover
+                color: $orange
+                border-bottom: 1px $orange solid
+    &__info
+        display: flex
+        flex-direction: column
+        align-items: flex-end
+        margin-top: 17px
+        margin-left: 28px
+    &__quest
+        color: $white
+        font-size: 14px
+        font-weight: 300
+        font-style: normal
+        letter-spacing: normal
+        line-height: 24px
+    &__number
+        color: $white
+        font-size: 19px
+        font-weight: 700
+        font-style: normal
+        letter-spacing: normal
+        line-height: 24px
+    &__btn
+        width: 160px
+        height: 45px
+        background-color: $orange
+        border-radius: 25px
+        border: none
+        color: $white
+        font-size: 12px
+        font-weight: 400
+        font-style: normal
+        letter-spacing: normal
+        line-height: 22.04px
+        text-transform: uppercase
+        cursor: pointer
+        margin-top: 20px
+        margin-left: 10px
+        &:hover
+            filter: brightness(90%)
+        &-primary
+            position: relative
+            left: 8px
+            display: flex
+            justify-content: center
+            align-items: center
+            margin: 36px auto 0
+            width: 230px
+            height: 57px
+            font-size: 15px
+            font-weight: 700
+            line-height: 17.35px
+
+    &__figur
+        width: 9px
+        height: 9px
+        border-radius: 50%
+        background: $white
+        left: 8px
+        margin: -1px auto
+        position: relative
+        &:before
+            content: ''
+            position: absolute
+            right: 21px
+            width: 388px
+            height: 1px
+            background: $white
+            top: 4px
+        &:after
+            content: ''
+            position: absolute
+            left: 21px
+            width: 388px
+            height: 1px
+            background: $white
+            top: 4px
+
+        &__figur:after
+            left: 20px
+            right: inherit
+    &__pretitle
+        color: $white
+        font-size: 24px
+        font-weight: 300
+        font-style: normal
+        letter-spacing: normal
+        line-height: normal
+        text-align: center
+        margin-top: 0px
+        margin-left: 13px
+    &__title
+        color: $orange
+        font-size: 72px
+        font-weight: 700
+        font-family: "Roboto Condensed"
+        font-style: normal
+        letter-spacing: -1px
+        line-height: normal
+        text-align: center
+        text-transform: uppercase
+        margin-top: -15px
+        margin-left: 15px
+        margin-bottom: -6px
+    &__subtitle
+        color: $white
+        font-size: 42px
+        font-weight: 400
+        font-family: "Roboto Condensed"
+        font-style: normal
+        letter-spacing: -0.6px
+        line-height: normal
+        text-align: center
+        text-transform: uppercase
+        margin-top: 0
+        margin-left: 14px
+    &__offers
+        display: flex
+        margin-top: 29px
+        margin-left: 5px
+        &-text
+            text-align: center
+            color: $white
+
+            font-size: 16px
+            font-weight: 300
+            font-style: normal
+            letter-spacing: normal
+            line-height: 22px
+            margin: auto
+        &-first
+            &-img
+                margin-top: 8px
+                margin-bottom: -5px
+        &-second
+            &-img
+                margin-left: 9px
+                margin-bottom: 3px
+            &-text
+                margin-left: 6px
+                margin-top: 2px
+        &-third
+            &-img
+                margin-left: 13px
+                margin-bottom: 5px
+                margin-top: 4px
+            &-text
+                margin-left: 12px
+                margin-top: 2px
+        &-fourth
+            &-img
+                margin-left: 9px
+                margin-bottom: 5px
+                margin-top: 6px
+
+            &-text
+                margin-left: 25px
+                margin-top: 3px
+    &__offer
+        display: flex
+        flex-direction: column
+        align-items: center
+        flex-basis: 100%
