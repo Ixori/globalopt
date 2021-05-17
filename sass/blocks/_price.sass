@@ -1,6 +1,6 @@
 .price
     padding-top: 53px
-    padding-bottom: 57px
+    padding-bottom: 43px
     &__offers
         display: flex
         justify-content: space-between
@@ -109,3 +109,108 @@
             text-transform: uppercase
             border: none
             border-radius: 25px
+    &__heading
+        color: #3a3a3a
+        font-size: 28px
+        font-weight: 400
+        font-style: normal
+        letter-spacing: normal
+        line-height: 23px
+        text-align: center
+        margin-top: 55px
+    &__avatar
+        width: 102px
+        height: 102px
+        border: 1px solid #e93b3b
+        border-radius: 100%
+        display: flex
+        justify-content: center
+        align-items: center
+        margin: 0 auto
+        bottom: 66px
+        left: 7px
+        position: relative
+    &__consult
+        position: relative
+        padding: 15px 25px
+        margin-top: 75px
+        display: flex
+        align-items: center
+        flex-direction: column
+        &::before,&::after
+            content: ""
+            position: absolute
+            left: 16px
+            display: block
+            width: 44%
+            top: 0px
+            height: 1px
+            background: #898989
+
+        &::after
+            right: 0
+            left: 55.9%
+
+    &__form
+        &::before,&::after
+            content: ""
+            position: absolute
+            left: 16px
+            display: block
+            width: 1px
+            top: 0px
+            height: 81.9%
+            background: #898989
+
+        &::after
+            right: 0
+            left: 99.8%
+        &-input
+            width: 268px
+            height: 45px
+            border: 1px solid rgba(0,0,0,0.21)
+            background-color: #ffffff
+            color: #101010
+            font-family: Roboto
+            font-size: 13px
+            font-weight: 300
+            font-style: normal
+            letter-spacing: normal
+            line-height: 24px
+            text-align: left
+            padding-left: 28px
+            position: relative
+            left: 6px
+            bottom: 49px
+            border-radius: 45px
+        &-btn
+            width: 180px
+            height: 45px
+            background-color: #ec644b
+            color: #ffffff
+            font-family: Roboto
+            font-size: 12px
+            font-weight: 400
+            font-style: normal
+            letter-spacing: normal
+            line-height: 22.04px
+            text-align: center
+            text-transform: uppercase
+            border: none
+            border-radius: 45px
+            margin-top: -19px
+            margin-left: 16px
+            &::before,&::after
+                content: ""
+                position: absolute
+                left: 16px
+                display: block
+                width: 40.5%
+                bottom: 37px
+                height: 1px
+                background: #898989
+
+            &::after
+                right: 0
+                left: 59.6%
+                width: 40.2%
