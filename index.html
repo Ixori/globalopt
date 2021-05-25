@@ -17,6 +17,7 @@
     />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
+    
   </head>
   <body>
     <header class="header">
@@ -459,7 +460,7 @@
                 <span class="shema__heading">Заявка</span>
                   <span class="shema__text">Вы оставляете заявку на нашем сайте <br> или звоните нам</span>
               </div>
-            </img>
+            
           </div>
           <div class="shema__item">
             <div class="shema__img"><img src="img/world.png" alt=""></div>
@@ -467,7 +468,7 @@
                 <span class="shema__heading">Аналитика доставки</span>
                   <span class="shema__text">Мы просчитываем варианты доставки <br> Вашего груза</span>
               </div>
-            </img>
+            
           </div>
           
           <div class="shema__item">
@@ -476,7 +477,7 @@
                 <span class="shema__heading">Договор</span>
                   <span class="shema__text">Заключаем с Вами договор о поставке <br> груза из Китая</span>
               </div>
-            </img>
+            
           </div>
           <div class="shema__item">
             <div class="shema__img"><img src="img/sklad.png" alt=""></div>
@@ -494,7 +495,7 @@
                 <span class="shema__heading">Проверка груза</span>
                   <span class="shema__text">Мы проверяем, собираем и <br> упаковываем перед отправкой Ваш <br> груз на своём складе</span>
               </div>
-            </img>
+            
           </div>
           <div class="shema__item2">
             <div class="shema__img"><img src="img/gruz.png" alt=""></div>
@@ -502,7 +503,7 @@
                 <span class="shema__heading">Доставка груза</span>
                   <span class="shema__text">Мы перевозим ваш груз до места <br> назначения и производим таможенную <br> очистку</span>
               </div>
-            </img>
+          
           </div>
           <div class="shema__item">
             <div class="shema__img"><img src="img/widthdraw.png" alt=""></div>
@@ -510,7 +511,7 @@
                 <span class="shema__heading">Оплата</span>
                   <span class="shema__text">Оплачиваете доставку груза при <br> получении </span>
               </div>
-            </img>
+            
           </div>
       </div>
     </section>
@@ -574,7 +575,8 @@
       </div>
     </section>
     <section class="map">
-      <div class="map__pintext">
+      <div id="map"><iframe style="pointer-events: none;" src="https://yandex.ru/map-widget/v1/?um=constructor%3A81f775925a13b48b7c5069b4503f164c0aadb38d68f40e4e3fb51009abf12a84&amp;scroll=false&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe></div>
+      <!-- <div class="map__pintext">
         <span class="map__heading">
           г. Москва
         </span>
@@ -582,8 +584,34 @@
           700 от м. Новокузнецкая</span>
         <span class="map__tel">Тел: +7 (926) 423 01 00</span>
         <span class="map__email">info@glopt.ru</span>
-      </div>  
+      </div>   -->
     </section>
-    <footer class="footer">22</footer>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__prefooter">
+          <div class="footer__prefooter-img"><img src="img/glopticon.png" alt=""></div>
+          <span class="footer__prefooter-heading">Global Opt - Доставка грузов из Китая в Россию и СНГ</span>
+          <div class="footer__prefooter-info">
+            <div class="footer__prefooter-textes">
+              <span class="footer__prefooter-quest">Есть вопросы?</span>
+            <span class="footer__prefooter-tel">+7 (926) 423 01 00</span>
+            </div>
+            <button class="footer__prefooter-btn">Перезвоните мне</button>
+          </div>
+          
+        </div>
+        <div class="footer__line"></div>
+        <div class="footer__footer">
+          <span class="footer__footer-corp">© 2010 Scratch.com.ua</span>
+          <span class="footer__footer-polityc">Политика конфидециальности</span>
+          <div class="footer__footer-creating">
+            <span class="footer__footer-sitecr">Создание сайта:</span>
+            <div class="footer__footer-img"><img src="img/footerlogo.png" alt=""></div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
   </body>
+  
 </html>
