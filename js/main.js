@@ -6,3 +6,16 @@ document.addEventListener('click', function(e) {
         map.style.pointerEvents = 'none'
     }
 })
+
+const swiper = new Swiper('.swiper-container', {
+    // Optional parameters
+    loop: true,
+  
+  
+    // Navigation arrows
+    navigation: {
+      nextEl: '.feedback__swipper__button-next',
+      prevEl: '.feedback__swipper__button-prev',
+    },
+  
+  });

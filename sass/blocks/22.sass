@@ -1,0 +1,33 @@
+.feedback
+    &__swipper
+        &-item
+            position: relative
+            display: flex
+            flex-direction: column
+            align-items: center
+            justify-content: center
+            max-width: 730px
+            margin: 45px auto 0
+            background-color: #fff
+            border-radius: 8px
+            padding: 0 62px 30px
+        &__button
+            position: absolute
+            top: 50%
+            transform: translateY(-50%)
+            width: 30px
+            height: 30px
+            background-repeat: no-repeat
+            background-size: 10px
+            background-position: center
+            border: none
+            background-color: transparent
+            cursor: pointer
+            z-index: 99
+            outline: none
+            &-prev
+                background-image: url(../img/arrow-left.png)
+                left: 0
+            &-next
+                background-image: url(../img/arrow-right.png)
+                right: 0
